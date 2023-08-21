@@ -10,6 +10,27 @@
       "StackName": "amplify-nextamplifydemo-dev-205838",
       "StackId": "arn:aws:cloudformation:ap-northeast-1:247601741829:stack/amplify-nextamplifydemo-dev-205838/10f8eb20-401a-11ee-b454-0e20a149a329",
       "AmplifyAppId": "d1s4jx48qbokun"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d1s4jx48qbokun",
+          "type": "cicd"
+        }
+      }
+    }
+  },
+  "timeout": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-nextamplifydemo-timeout-210901-authRole",
+      "UnauthRoleArn": "arn:aws:iam::247601741829:role/amplify-nextamplifydemo-timeout-210901-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::247601741829:role/amplify-nextamplifydemo-timeout-210901-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-nextamplifydemo-timeout-210901-deployment",
+      "UnauthRoleName": "amplify-nextamplifydemo-timeout-210901-unauthRole",
+      "StackName": "amplify-nextamplifydemo-timeout-210901",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:247601741829:stack/amplify-nextamplifydemo-timeout-210901/84931370-401b-11ee-ab69-0eee14513e5d",
+      "AmplifyAppId": "d1s4jx48qbokun"
     }
   }
 }
