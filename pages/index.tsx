@@ -18,24 +18,18 @@ const Home: NextPage = () => {
         <p className={styles.description}>TypeScript/Next.js + Amplify Console DEMO</p>
         <div className={styles.grid}>
           <Link href='/ssg' passHref>
-            <a>
-              <h2>SSG DEMO &rarr;</h2>
-              <p>Static Site Generation DEMO</p>
-            </a>
+            <h2>SSG DEMO &rarr;</h2>
+            <p>Static Site Generation DEMO</p>
           </Link>
 
           <Link href='/ssr' passHref>
-            <a>
-              <h2>SSR DEMO &rarr;</h2>
-              <p>Server-Side Rendering DEMO</p>
-            </a>
+            <h2>SSR DEMO &rarr;</h2>
+            <p>Server-Side Rendering DEMO</p>
           </Link>
 
           <Link href='/isr' passHref>
-            <a>
-              <h2>ISR DEMO &rarr;</h2>
-              <p>Incremental Static Regeneration DEMO</p>
-            </a>
+            <h2>ISR DEMO &rarr;</h2>
+            <p>Incremental Static Regeneration DEMO</p>
           </Link>
 
           <a href='https://github.com/53ningen-learning/next-amplify-demo' target='_blank' rel='noopener noreferrer'>
